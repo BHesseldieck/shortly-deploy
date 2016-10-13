@@ -9,7 +9,7 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "start": "grunt build && grunt upload",
+    "start": "grunt deploy & nodemon server.js",
     "test": "grunt test",
     "lint": "eslint ./"
   },
@@ -36,7 +36,7 @@
     "grunt-shell": "^1.2.1",
     "knex": "^0.10.0",
     "mocha": "^2.4.5",
-    "mongoose": "^4.4.10",
+    "mongoose": "^4.6.3",
     "request": "^2.34.0",
     "sqlite3": "~3.1.1"
   },
